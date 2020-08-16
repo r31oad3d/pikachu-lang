@@ -17,7 +17,7 @@ A small toy that provides pikachu language!
 |pika pi!         |  \]          |    Jump backward to the matching \[ unless the byte at the pointer is zero.|
 
 >below code output:
->>pikachu!
+>>pika pikachu!
 
 ```Rust
     let _ = pikachu!(
