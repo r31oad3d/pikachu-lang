@@ -14,7 +14,7 @@ A small toy that provides pikachu language!
 |pikachu!         |  .          |    output the byte at pointer|
 |pikachu?         |  ,          |    input of one byte into pointer|
 |pika pi?         |  \[          |   Jump forward past the matching \] if the byte at the pointer is zero.|
-|pika pi!         |  \]          |    if pointer is nonzero, jump to matching pika|
+|pika pi!         |  \]          |    Jump backward to the matching \[ unless the byte at the pointer is zero.|
 
 >below code output:
 >>pikachu!
