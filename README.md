@@ -3,7 +3,7 @@ A small toy that provides pikachu language!
 
 ![pikachu](timg.gif)
 
-# inspired by [BrainFuck](http://www.muppetlabs.com/~breadbox/bf/) and [the little book of Rust macros](https://danielkeep.github.io/tlborm/book/index.html)
+# inspired by [Brainfuck](http://www.muppetlabs.com/~breadbox/bf/) and [the little book of Rust macros](https://danielkeep.github.io/tlborm/book/index.html)
 
 |  pikachu-lang   |  brainfuck  |   desc   |
 |      ----       |    ----     |   ----   |
