@@ -15,3 +15,79 @@ A small toy that provides pikachu language!
 |pikachu?         |  ,          |    input of one byte into pointer|
 |pika pi?         |  \[          |   Jump forward past the matching \] if the byte at the pointer is zero.|
 |pika pi!         |  \]          |    if pointer is nonzero, jump to matching pika|
+
+>below code output:
+>>pikachu!
+
+```Rust
+    let _ = pikachu!(
+        pika! pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika pi?    pika. pika.
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika! pika! pika! pika. pika pi!    pika. pika.
+        pika. pika! pika. pika! pikachu!    pika! pika! pika! pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika pi?    pika. pika. pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika! pika!
+        pika! pika. pika pi!    pika. pika. pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pikachu!    pika! pika! pika! pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika pi?    pika. pika. pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika! pika!
+        pika! pika. pika pi!    pika. pika. pika! pika. pika! pika. pika! pika. pikachu!
+        pika! pika! pika! pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika pi?    pika. pika.
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika! pika! pika! pika. pika pi!    pika. pika.
+        pika! pika. pika! pika. pika! pika. pikachu!    pika! pika! pika! pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika pi?    pika! pika! pika. pika!
+        pika pi?    pika. pika. pika. pika! pika. pika! pika! pika! pika! pika. pika pi!
+        pika. pika. pika. pika. pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika! pika! pika! pika. pika! pika. pika! pika. pika pi!    pika. pika.
+        pika. pika! pika. pika! pikachu!    pika! pika! pika! pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika pi?    pika. pika. pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika! pika! pika! pika. pika pi!    pika. pika. pika. pika! pika. pika! pikachu!
+        pika! pika! pika! pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika pi?    pika. pika.
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika! pika! pika! pika. pika pi!    pika. pika.
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pikachu!    pika! pika!
+        pika! pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika pi?    pika. pika.
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika! pika! pika! pika. pika pi!    pika. pika.
+        pika! pika. pika! pika. pika! pika. pikachu!    pika! pika! pika! pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika pi?    pika. pika. pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika! pika! pika! pika. pika pi!    pika. pika. pika! pika. pika! pika. pika! pika.
+        pikachu!    pika! pika! pika! pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika pi?
+        pika. pika. pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika! pika! pika! pika. pika pi!
+        pika. pika. pika! pika. pikachu!    pika! pika! pika! pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika pi?    pika. pika. pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika! pika!
+        pika! pika. pika pi!    pika. pika. pika. pika! pika. pika! pika. pika! pika. pika!
+        pikachu!    pika! pika! pika! pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika pi?
+        pika. pika. pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika! pika! pika!
+        pika! pika. pika pi!    pika. pika. pika! pika. pika! pika. pika! pika. pikachu!
+        pika! pika! pika! pika! pika. pika! pika. pika! pika. pika! pika. pika! pika. pika!
+        pika pi?    pika! pika! pika. pika! pika pi?    pika. pika. pika. pika! pika. pika!
+        pika! pika! pika! pika. pika pi!    pika. pika. pika. pika. pika. pika! pika. pika!
+        pika. pika! pika. pika! pika. pika! pika. pika! pika! pika! pika! pika. pika! pika.
+        pika! pika. pika pi!    pika. pika. pika. pika! pika. pika! pika. pika! pikachu!
+    );
+
+```
+
+
+
+
+
+
